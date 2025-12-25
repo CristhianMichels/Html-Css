@@ -27,8 +27,8 @@
     }
 
     div.campo > span{
-        margin-left: 7px;
-        margin-right: 6px;
+        margin-left: 1px;
+        margin-right: 2px;
     }
 
     form > div > input{
@@ -67,7 +67,7 @@
     }
 
     div.campo > span{
-        margin-left: 7px;
+        margin-left: 4px;
         margin-right: 6px;
     }
 
