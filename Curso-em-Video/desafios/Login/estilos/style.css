@@ -62,6 +62,7 @@ div#formulario > h1{
 
 div#formulario > p{
     font-size: 0.8em;
+    margin-bottom: 10px;
 }
 
 form > div.campo {
@@ -71,7 +72,6 @@ form > div.campo {
     margin: 5px 0;
 }
 
-
 div.campo > label{
     display: none;
 }
@@ -79,7 +79,7 @@ div.campo > label{
 div.campo > span{
     font-size: 2em;
     width: 30px;
-    margin-right: 6px;
+    margin-right: 2px;
     padding: 5px;
 }
 
