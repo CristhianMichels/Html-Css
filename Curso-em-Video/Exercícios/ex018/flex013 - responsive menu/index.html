@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox Menu</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" and media="screen and (max-width: 580px)">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
 </head>
-<body>
+<body onresize="ChangedSize()">
     <header>
         <h1>My Website</h1>
-        <nav>
+        <span class="material-symbols-outlined" onclick="ClickMenu()" id="menu">menu</span>
+        <nav id="itens">
             <a href="#">Option 1</a>
             <a href="#">Option 2</a>
             <a href="#">Option 3</a>
@@ -32,5 +35,24 @@
             </p>
         </section>
     </main>
+    <script>
+        const itens = document.getElementById('itens');
+        function ClickMenu(){
+            if (itens.style.display == 'flex'){
+                itens.style.display ='none';
+            } else{
+                itens.style.display = 'flex'
+            }
+        }
+
+        function ChangedSize(){
+            if (window.innerWidth >= 580){
+                itens.style.display = 'flex'
+            } else{
+                itens.style.display = 'none'
+            }
+        }
+
+    </script>
 </body>
 </html>

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+header > nav{
+    flex-flow: column nowrap;
+}
+
+header > h1{
+    flex-basis: 100px;
+}
+
+header > nav > a{
+    width: 90vw;
+}
+
+#itens{
+    display: none;
+}
+
+span#menu{
+    display: flex;
+    cursor: pointer;
+    padding: 8px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+span#menu:hover{
+    background-color: rgb(196, 195, 195);
+    color: black;
+}
