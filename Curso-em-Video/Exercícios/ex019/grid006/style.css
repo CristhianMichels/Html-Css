@@ -1,0 +1,21 @@
+div.container{
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.box1{
+    grid-area: 1 / 1 / 2 / -1;
+    background-color: lightcoral;
+}
+
+.box2{
+    grid-area: 2 / 1 / span 2 / 3;
+    background-color: lightgreen;
+}
+
+.box3{
+    grid-area: 2 / 3 / 4 / 5;
+    background-color: lightblue;
+}
