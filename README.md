@@ -1,3 +1,3 @@
 # Html-Css
-Meus estudos de HTML 5 e CSS 3
+My studies of HTML 5 and CSS 3
 
